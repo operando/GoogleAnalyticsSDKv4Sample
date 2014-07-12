@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onResume() {
         super.onResume();
         GoogleAnalytics.getInstance(this).reportActivityStart(this);
-        GoogleAnalytics.getInstance(this).newTracker(R.xml.analytics).
+        GoogleAnalytics.getInstance(this).newTracker(R.xml.global_tracker).
                 send(new HitBuilders.EventBuilder()
                         .setCategory("test")
                         .setAction("test")
