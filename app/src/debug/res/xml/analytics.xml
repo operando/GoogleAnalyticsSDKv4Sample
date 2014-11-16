@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ga_trackingId">UA-52739592-1</string>
+
+    <!-- The screen names that will appear in reports -->
+    <string name="com.operando.os.googleanalyticssdkv4.MainActivity">AnalyticsSampleApp
+        ScreenView Setting Old
+    </string>
+
+    <!-- Activityの自動トラッキング -->
+    <bool name="ga_autoActivityTracking">true</bool>
+    <!-- Exceptionの自動トラッキング -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <bool name="ga_dryRun">true</bool>
+
+    <string name="ga_logLevel">verbose</string>
+
+</resources>
