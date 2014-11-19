@@ -4,9 +4,7 @@
 
     <bool name="ga_autoActivityTracking">true</bool>
 
-    <screenName name="com.operando.os.googleanalyticssdkv4.MainActivity">AnalyticsSampleApp
-        ScreenView
-    </screenName>
+    <screenName name="com.operando.os.googleanalyticssdkv4.MainActivity">Top</screenName>
 
     <bool name="ga_reportUncaughtExceptions">true</bool>
 
